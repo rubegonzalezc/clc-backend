@@ -77,6 +77,19 @@ namespace ApiCLC.Controllers
         [HttpPost]
         public async Task<ActionResult<Person>> PostPerson(Person person)
         {
+            // Verificar si el TeamId y PositionId existen
+            var team = await _context.Teams.FindAsync(person.TeamId);
+            var position = await _context.Positions.FindAsync(person.PositionId);
+
+            if (team == null || position == null)
+            {
+                return BadRequest("TeamId o PositionId no válidos.");
+            }
+
+            // No incluir los objetos anidados en la creación
+            person.Team = null;
+            person.Position = null;
+
             _context.Persons.Add(person);
             await _context.SaveChangesAsync();
 

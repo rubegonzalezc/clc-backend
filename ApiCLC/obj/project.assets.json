@@ -11250,19 +11250,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ragon\\.nuget\\packages\\": {}
+    "C:\\Users\\rgonzalezco\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ragon\\source\\repos\\ApiCLC\\ApiCLC\\ApiCLC.csproj",
+      "projectUniqueName": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\ApiCLC.csproj",
       "projectName": "ApiCLC",
-      "projectPath": "C:\\Users\\ragon\\source\\repos\\ApiCLC\\ApiCLC\\ApiCLC.csproj",
-      "packagesPath": "C:\\Users\\ragon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ragon\\source\\repos\\ApiCLC\\ApiCLC\\obj\\",
+      "projectPath": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\ApiCLC.csproj",
+      "packagesPath": "C:\\Users\\rgonzalezco\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ragon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rgonzalezco\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -54,6 +54,18 @@ void ConfigureServices(IServiceCollection services, string connectionString)
     {
         c.SwaggerDoc("v1", new OpenApiInfo { Title = "CLCApi", Version = "v1" });
     });
+
+    // Configurar CORS
+    services.AddCors(options =>
+    {
+        options.AddPolicy("AllowSpecificOrigin",
+            builder =>
+            {
+                builder.WithOrigins("http://localhost:3000")
+                       .AllowAnyHeader()
+                       .AllowAnyMethod();
+            });
+    });
 }
 
 void ConfigureMiddleware(WebApplication app)
@@ -68,6 +80,10 @@ void ConfigureMiddleware(WebApplication app)
     }
 
     app.UseHttpsRedirection();
+
+    // Usar CORS
+    app.UseCors("AllowSpecificOrigin");
+
     app.UseAuthorization();
     app.MapControllers();
 }

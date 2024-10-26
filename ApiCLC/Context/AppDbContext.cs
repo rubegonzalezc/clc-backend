@@ -16,7 +16,18 @@ namespace ApiCLC.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            // Configuraciones adicionales
+
+            // Configuración de la relación entre Person y Team
+            modelBuilder.Entity<Person>()
+                .HasOne(p => p.Team)
+                .WithMany()
+                .HasForeignKey(p => p.TeamId);
+
+            // Configuración de la relación entre Person y Position
+            modelBuilder.Entity<Person>()
+                .HasOne(p => p.Position)
+                .WithMany()
+                .HasForeignKey(p => p.PositionId);
         }
     }
 }

@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|c:\\users\\rgonzalezco\\documents\\github\\clc-backend\\apiclc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|solutionrelative:apiclc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|c:\\users\\rgonzalezco\\documents\\github\\clc-backend\\apiclc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|solutionrelative:apiclc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|c:\\users\\rgonzalezco\\documents\\github\\clc-backend\\apiclc\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|solutionrelative:apiclc\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|c:\\users\\rgonzalezco\\documents\\github\\clc-backend\\apiclc\\migrations\\clcapicontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|solutionrelative:apiclc\\migrations\\clcapicontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|c:\\users\\rgonzalezco\\documents\\github\\clc-backend\\apiclc\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|solutionrelative:apiclc\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|c:\\users\\rgonzalezco\\documents\\github\\clc-backend\\apiclc\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|solutionrelative:apiclc\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|c:\\users\\rgonzalezco\\documents\\github\\clc-backend\\apiclc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|solutionrelative:apiclc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|c:\\users\\rgonzalezco\\documents\\github\\clc-backend\\apiclc\\controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|solutionrelative:apiclc\\controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|c:\\users\\rgonzalezco\\documents\\github\\clc-backend\\apiclc\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{37123491-E619-4A8F-B998-DFD42ECF4434}|ApiCLC\\ApiCLC.csproj|solutionrelative:apiclc\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\Program.cs",
+              "RelativeDocumentMoniker": "ApiCLC\\Program.cs",
+              "ToolTip": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\Program.cs",
+              "RelativeToolTip": "ApiCLC\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:34:24.193Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApiCLC\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApiCLC\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-26T20:53:51.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PositionsController.cs",
+              "DocumentMoniker": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\Controllers\\PositionsController.cs",
+              "RelativeDocumentMoniker": "ApiCLC\\Controllers\\PositionsController.cs",
+              "ToolTip": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\Controllers\\PositionsController.cs",
+              "RelativeToolTip": "ApiCLC\\Controllers\\PositionsController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T14:21:50.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiCLC\\appsettings.json",
+              "ToolTip": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\appsettings.json",
+              "RelativeToolTip": "ApiCLC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-26T11:36:32.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "ApiCLC\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\Models\\Person.cs",
+              "RelativeToolTip": "ApiCLC\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:36:23.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CLCApiContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\Migrations\\CLCApiContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ApiCLC\\Migrations\\CLCApiContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\Migrations\\CLCApiContextModelSnapshot.cs",
+              "RelativeToolTip": "ApiCLC\\Migrations\\CLCApiContextModelSnapshot.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:36:06.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PeopleController.cs",
+              "DocumentMoniker": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\Controllers\\PeopleController.cs",
+              "RelativeDocumentMoniker": "ApiCLC\\Controllers\\PeopleController.cs",
+              "ToolTip": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\Controllers\\PeopleController.cs",
+              "RelativeToolTip": "ApiCLC\\Controllers\\PeopleController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:35:52.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\.env",
+              "RelativeDocumentMoniker": "ApiCLC\\.env",
+              "ToolTip": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\.env",
+              "RelativeToolTip": "ApiCLC\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-26T11:35:05.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ApiCLC\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\rgonzalezco\\Documents\\GitHub\\clc-backend\\ApiCLC\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "ApiCLC\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:29:02.232Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
