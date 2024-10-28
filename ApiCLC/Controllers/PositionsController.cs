@@ -42,7 +42,6 @@ namespace ApiCLC.Controllers
         }
 
         // PUT: api/Positions/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutPosition(int id, Position position)
         {
@@ -73,10 +72,16 @@ namespace ApiCLC.Controllers
         }
 
         // POST: api/Positions
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Position>> PostPosition(Position position)
         {
+            // Verificar si ya existe una posición con el mismo nombre
+            var existingPosition = await _context.Positions.FirstOrDefaultAsync(p => p.Name == position.Name);
+            if (existingPosition != null)
+            {
+                return BadRequest("There is already a position with the same name");
+            }
+
             _context.Positions.Add(position);
             await _context.SaveChangesAsync();
 
@@ -91,6 +96,13 @@ namespace ApiCLC.Controllers
             if (position == null)
             {
                 return NotFound();
+            }
+
+            // Actualizar el PositionId de las personas afiliadas a null
+            var affiliatedPersons = await _context.Persons.Where(p => p.PositionId == id).ToListAsync();
+            foreach (var person in affiliatedPersons)
+            {
+                person.PositionId = null;
             }
 
             _context.Positions.Remove(position);

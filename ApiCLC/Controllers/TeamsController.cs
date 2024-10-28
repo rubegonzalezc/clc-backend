@@ -42,7 +42,6 @@ namespace ApiCLC.Controllers
         }
 
         // PUT: api/Teams/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutTeam(int id, Team team)
         {
@@ -73,10 +72,16 @@ namespace ApiCLC.Controllers
         }
 
         // POST: api/Teams
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Team>> PostTeam(Team team)
         {
+            // Verificar si ya existe un equipo con el mismo nombre
+            var existingTeam = await _context.Teams.FirstOrDefaultAsync(t => t.Name == team.Name);
+            if (existingTeam != null)
+            {
+                return BadRequest("Ya existe un equipo con el mismo nombre.");
+            }
+
             _context.Teams.Add(team);
             await _context.SaveChangesAsync();
 
@@ -92,6 +97,17 @@ namespace ApiCLC.Controllers
             {
                 return NotFound();
             }
+
+            // Opción 1: Actualizar el TeamId de las personas afiliadas a null
+            var affiliatedPersons = await _context.Persons.Where(p => p.TeamId == id).ToListAsync();
+            foreach (var person in affiliatedPersons)
+            {
+                person.TeamId = null;
+            }
+
+            // Opción 2: Eliminar las personas afiliadas al equipo
+            // var affiliatedPersons = await _context.Persons.Where(p => p.TeamId == id).ToListAsync();
+            // _context.Persons.RemoveRange(affiliatedPersons);
 
             _context.Teams.Remove(team);
             await _context.SaveChangesAsync();

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiCLC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efe4b0bd46d631ae973460684da039982300ecfb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+406c1bb6030ac4307827bc8a7d257587fb5ccedd")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiCLC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiCLC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
